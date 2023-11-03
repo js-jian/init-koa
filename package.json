@@ -1,0 +1,26 @@
+{
+  "name": "jie-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-mysql-session": "^0.0.2",
+    "koa-router": "^12.0.1",
+    "koa-session-minimal": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.10",
+    "@types/koa-router": "^7.4.6",
+    "@types/koa-session-minimal": "^3.0.10",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
